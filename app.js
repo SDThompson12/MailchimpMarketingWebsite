@@ -18,7 +18,7 @@ app.use("/", mainRoute);
 //For Local Port Functions and testing Website Changes: app.listen(3670, function()
 //For Deployment Application running: app.listen(process.env.PORT, process.env.IP, function()
 
-app.listen(3670, function()
+app.listen(process.env.PORT, process.env.IP, function()
 {
 console.log("Starting Mailchimp Marketing Page...");
 })
